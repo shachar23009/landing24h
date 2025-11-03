@@ -5,6 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>דף נחיתה תוך 24 שעות – בנייה מהירה עם AI</title>
   <meta name="description" content="בנייה מהירה של דפי נחיתה בעברית תוך 24 שעות: עיצוב, כתיבה שיווקית ותמונות AI. תשלום מאובטח והספקה מהירה."/>
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="דף נחיתה תוך 24 שעות – בנייה מהירה עם AI">
+  <meta property="og:description" content="בנייה מהירה של דפי נחיתה בעברית תוך 24 שעות: עיצוב, כתיבה שיווקית ותמונות AI. תשלום מאובטח והספקה מהירה.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="he_IL">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Placeholder image: replace with a hosted og:image for better sharing -->
+  <meta property="og:image" content="/assets/og-image.png">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;800&display=swap" rel="stylesheet">
@@ -23,6 +32,7 @@
     .btn{padding:12px 18px;border-radius:12px;border:1px solid #2a3446;background:#1b2335;color:var(--text);font-weight:600}
     .btn.primary{background:linear-gradient(90deg,var(--accent),#16a34a);border-color:transparent;color:#06140a}
     .btn.secondary{background:#0f172a}
+    .btn:focus{outline:3px solid rgba(34,197,94,0.25);outline-offset:2px}
     .section{background:rgba(255,255,255,0.03);border:1px solid #203049;border-radius:16px;padding:18px 18px;margin:16px 0}
     .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
     .card{background:var(--card);border:1px solid #22334a;border-radius:14px;padding:16px}
@@ -37,8 +47,8 @@
 </head>
 <body>
   <div class="container">
-    <header class="nav">
-      <div class="brand"><span class="logo"></span>דף נחיתה ב־24 שעות</div>
+    <header class="nav" role="navigation" aria-label="ניווט ראשי">
+      <div class="brand"><span class="logo" aria-hidden="true"></span><span class="visually-hidden">דף נחיתה ב־24 שעות</span>דף נחיתה ב־24 שעות</div>
       <div class="pill">זמן אספקה: עד 24 שעות</div>
     </header>
 
@@ -46,8 +56,8 @@
       <h1 class="title">בונים לך דף נחיתה ממיר – תוך <u>24 שעות</u></h1>
       <p class="subtitle">עיצוב מודרני, טקסט שיווקי מדויק ותמונות שנוצרות ב-AI. מוכן לפרסום ולגביית תשלומים.</p>
       <div class="actions">
-        <a class="btn primary" href="https://www.paypal.com/paypalme/ShacharAshkenazi836" target="_blank" rel="noopener">הזמנה מהירה</a>
-        <a class="btn secondary" href="https://wa.me/972556675704?text=היי,%20אני%20רוצה%20דף%20נחיתה%20ב-24%20שעות" target="_blank" rel="noopener">דברו איתי בווטסאפ</a>
+        <a class="btn primary" href="https://www.paypal.com/paypalme/ShacharAshkenazi836" target="_blank" rel="noopener noreferrer" aria-label="הזמנה מהירה ב-PayPal">הזמנה מהירה</a>
+        <a class="btn secondary" href="https://wa.me/972556675704?text=היי,%20אני%20רוצה%20דף%20נחיתה%20ב-24%20שעות" target="_blank" rel="noopener noreferrer" aria-label="דברו איתי בווטסאפ">דברו איתי בווטסאפ</a>
       </div>
     </section>
 
@@ -63,7 +73,7 @@
         </div>
         <div class="card">
           <h3>תמונות AI חוקיות</h3>
-          <p class="muted">תמונות מקוריות שנוצרות עם בינה מלאכותית לשימוש מסחרי.</p>
+          <p class="muted">תמונות מקוריות שנוצרות עם בינה מלאכותית לשימוש מסחרי. אנחנו מספקים הרשאה לשימוש מסחרי לכל תמונה שמסופקת — אם התמונה נוצרה עם שירות צד שלישי היא כפופה לתנאי השירות של אותו ספק. במידה ונדרש, נשמח לספק אישור שימוש או להחליף תמונה.</p>
         </div>
       </div>
     </section>
@@ -84,37 +94,51 @@
           <h3>Basic</h3>
           <p class="muted">דף נחיתה יחיד + טקסט שיווקי בסיסי + תמונת גיבור.</p>
           <div class="price">₪690</div>
-          <a class="btn" href="https://www.paypal.com/paypalme/ShacharAshkenazi836/690" target="_blank">הזמנה מהירה</a>
+          <a class="btn" href="https://www.paypal.com/paypalme/ShacharAshkenazi836/690" target="_blank" rel="noopener noreferrer" aria-label="הזמנה Basic ב-PayPal">הזמנה מהירה</a>
         </div>
         <div class="card">
           <h3>Pro</h3>
           <p class="muted">+ שלושה בלוקים שיווקיים, עדויות לקוחות, 3 תמונות AI.</p>
           <div class="price">₪1,090</div>
-          <a class="btn" href="https://www.paypal.com/paypalme/ShacharAshkenazi836/1090" target="_blank">הזמנה מהירה</a>
+          <a class="btn" href="https://www.paypal.com/paypalme/ShacharAshkenazi836/1090" target="_blank" rel="noopener noreferrer" aria-label="הזמנה Pro ב-PayPal">הזמנה מהירה</a>
         </div>
         <div class="card">
           <h3>Launch</h3>
           <p class="muted">+ 5 פוסטים לרשתות + סקריפט לוידאו קצר + הטמעת כפתור תשלום.</p>
           <div class="price">₪1,490</div>
-          <a class="btn" href="https://www.paypal.com/paypalme/ShacharAshkenazi836/1490" target="_blank">הזמנה מהירה</a>
+          <a class="btn" href="https://www.paypal.com/paypalme/ShacharAshkenazi836/1490" target="_blank" rel="noopener noreferrer" aria-label="הזמנה Launch ב-PayPal">הזמנה מהירה</a>
         </div>
       </div>
     </section>
 
     <section class="section">
       <h2 style="margin-top:0">שאלות נפוצות</h2>
-      <div class="card"><h3>מה אני מקבל?</h3><p class="muted">קובץ HTML מוכן (סינגל-פייל) +
-        תמונות AI + הנחיות העלאה. לבקשה – העלאה בשמך ל-Netlify/GitHub Pages.</p></div>
+      <div class="card"><h3>מה אני מקבל?</h3><p class="muted">קובץ HTML מוכן (סינגל-פייל) + תמונות AI + הנחיות העלאה. לבקשה – העלאה בשמך ל-Netlify/GitHub Pages.</p></div>
       <div class="card"><h3>אפשר צבעים/סגנון ספציפיים?</h3><p class="muted">כן. שלחו דוגמאות או לוגו וניישר קו.</p></div>
       <div class="card"><h3>תיקונים?</h3><p class="muted">כל חבילה כוללת עד 2 סבבי תיקון מהירים בתוך 24 שעות.</p></div>
     </section>
 
     <footer class="footer">
-      © <span id="year"></span> דף נחיתה ב-24 שעות • נבנה בעזרת AI
+      <div>© <span id="year"></span> דף נחיתה ב-24 שעות • נבנה בעזרת AI</div>
+      <div style="margin-top:8px">
+        <a href="/privacy.html" rel="noopener noreferrer">מדיניות פרטיות</a> • <a href="/terms.html" rel="noopener noreferrer">תנאי שירות</a> • <a href="/refunds.html" rel="noopener noreferrer">מדיניות החזרות</a>
+      </div>
+      <div style="margin-top:8px;color:#9aa6bf;font-size:13px">אמצעי תשלום מאובטחים דרך PayPal. פרטי איש הקשר: <a href="mailto:info@example.com" rel="noopener noreferrer">info@example.com</a></div>
     </footer>
   </div>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+
+  <!-- Analytics (commented): uncomment and replace with your site ID if you want lightweight analytics (Plausible example). -->
+  <!--
+  <script async defer data-domain="yourdomain.com" src="https://plausible.io/js/plausible.js"></script>
+  -->
+
+  <!-- Notes for maintainers:
+       - Replace /assets/og-image.png with a real hosted image for social sharing.
+       - Replace info@example.com with a real contact address or remove if you prefer WhatsApp-only contact.
+       - The PayPal.Me links should be tested to confirm amount handling; if they don't behave as expected consider using PayPal Checkout buttons.
+  -->
 </body>
 </html>
